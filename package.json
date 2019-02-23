@@ -1,0 +1,23 @@
+{
+  "name": "firehose-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "eosjs": "^20.0.0-beta3",
+    "int64-buffer": "^0.99.1007",
+    "node-fetch": "^2.3.0",
+    "text-encoding": "^0.7.0"
+  }
+}
