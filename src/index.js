@@ -1,5 +1,7 @@
 const FirehoseClient = require('../../firehose-client')
 
+const config = require('../config')
+
 /*
  * Example showing real time balance updates
  */
@@ -51,10 +53,6 @@ function render_table(){
 /*
 Configure the client with the location of the websocket endpoint and eos api server
  */
-const config = {
-    server: 'ws://127.0.0.1:1337',
-    eosEndpoint: 'http://eu.eosdac.io'
-}
 const firehose = new FirehoseClient(config)
 firehose
     .ready((firehose) => {
